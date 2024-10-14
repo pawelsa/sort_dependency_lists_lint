@@ -11,8 +11,8 @@ Add lints to `pubspec.yaml`
 ```yaml
 dev_dependencies:
   # ...
-  sort_lists:
-    git: <path_to_this_lib>
+  sort_dependency_lists_lint:
+    git: git@github.com:pawelsa/sort_dependency_lists_lint.git
 ```
 
 Then in `analysis_options.yaml` configure custom lints:
